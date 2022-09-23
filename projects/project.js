@@ -1,6 +1,6 @@
 const Projects = [
 	{
-		name: "Asos Clone",
+		name: "PCJ Clone",
 		about:
 			"Hokmakeup providing branded cosmetics products online, makeup kit online. In this project, I was leading my team and majorly worked on Home page, Product page, Signin functionality, Cart page, Wishlist and Payment page.",
 		img: "https://miro.medium.com/max/1000/1*wHGO7qEVTje7VTEizfVJiQ.png",
