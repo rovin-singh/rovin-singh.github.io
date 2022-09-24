@@ -36,6 +36,42 @@ const Projects = [
 		category: ["all", "html"],
 	},
 	{
+		name: "BizAdvisors",
+		about:
+			"BizAdvisors is Cloud Based technology driven legal service platform. We offer a full range of Accounting, Legal Compliances, Tax & Regulatory, Legal documentation, Business Advisory and other business and legal services.",
+		img: "https://user-images.githubusercontent.com/91409265/177003918-554a8a05-a86c-425c-89ff-c71622726c4e.png",
+		gitrepo: "https://github.com/rovin-singh/bizadvisors",
+		// video: "#",
+		// blog: "#",
+		tech_stack: "HTML | CSS | JAVASCRIPT | Bootstrap | PHP | My-Sql",
+		tech_stackicons: [
+			`<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+			`<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+			`<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+		],
+		project_link: "https://www.bizadvisors.io/",
+		project_type: "Team Project",
+		category: ["all", "html"],
+	},
+	{
+		name: "Corpways",
+		about:
+			"Corpways is Cloud Based technology driven legal service platform. We offer a full range of Accounting, Legal Compliances, Tax & Regulatory, Legal documentation, Business Advisory and other business and legal services.",
+		img: "https://user-images.githubusercontent.com/91409265/192079419-a5bec608-bbf5-40c6-896e-58cb4ddd222b.png",
+		gitrepo: "https://github.com/rovin-singh/bizadvisors",
+		// video: "#",
+		// blog: "#",
+		tech_stack: "HTML | CSS | JAVASCRIPT | Bootstrap | PHP | My-Sql",
+		tech_stackicons: [
+			`<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+			`<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+			`<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
+		],
+		project_link: "https://www.corpways.com/",
+		project_type: "Team Project",
+		category: ["all", "html"],
+	},
+	{
 		name: "KindMeal.My Clone",
 		about:
 			"The World's 1st Meat-Free Lifestyle Platform. they provids delicious meat-free, vegetarian deals from top restaurants and cafes! ",
