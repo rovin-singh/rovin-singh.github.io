@@ -30,8 +30,8 @@ const skills = [
 		category: ["all", "frontend"],
 	},
 	{
-		name: "Tailwind CSS",
-		icon_url: "../images/tailwindcss-icon.svg",
+		name: "Bootstrap",
+		icon_url: "../images/Bootstrap.png",
 		category: ["all", "frontend"],
 	},
 	{
@@ -51,7 +51,7 @@ const skills = [
 	},
 	{
 		name: "EXPRESS",
-		// icon_url : "https://img.icons8.com/color/48/000000/express.png",
+		icon_url : "https://img.icons8.com/color/48/000000/express.png",
 		icon_url: "../images/ExpressJS.png",
 		category: ["all", "backend"],
 	},
