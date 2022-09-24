@@ -58,7 +58,7 @@ const Projects = [
 		about:
 			"Corpways is Cloud Based technology driven legal service platform. We offer a full range of Accounting, Legal Compliances, Tax & Regulatory, Legal documentation, Business Advisory and other business and legal services.",
 		img: "https://user-images.githubusercontent.com/91409265/192079419-a5bec608-bbf5-40c6-896e-58cb4ddd222b.png",
-		gitrepo: "https://github.com/rovin-singh/bizadvisors",
+		gitrepo: "https://github.com/rovin-singh/corpways",
 		// video: "#",
 		// blog: "#",
 		tech_stack: "HTML | CSS | JAVASCRIPT | Bootstrap | PHP | My-Sql",
