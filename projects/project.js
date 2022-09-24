@@ -3,7 +3,7 @@ const Projects = [
 		name: "PCJ Clone",
 		about:
 			"PC Jeweller is India's leading fine jewellery discovery platform focusing on giving YOU an awesome jewellery buying experience. At PC Jeweller we strive to provide you the largest collection of curated designs for every occasion",
-		img: "https://miro.medium.com/max/1000/1*wHGO7qEVTje7VTEizfVJiQ.png",
+		img: "https://user-images.githubusercontent.com/91409265/192078064-3a9d36ee-62c9-4948-bb33-a1124a9becca.png",
 		gitrepo: "https://github.com/Ankit-Mishra07/hokmakeup",
 		// video: "#",
 		// blog: "#",
@@ -21,8 +21,8 @@ const Projects = [
 		name: "PCJ Clone",
 		about:
 			"PC Jeweller is India's leading fine jewellery discovery platform focusing on giving YOU an awesome jewellery buying experience. At PC Jeweller we strive to provide you the largest collection of curated designs for every occasion",
-		img: "https://miro.medium.com/max/1000/1*wHGO7qEVTje7VTEizfVJiQ.png",
-		gitrepo: "https://github.com/Ankit-Mishra07/hokmakeup",
+		img: "https://user-images.githubusercontent.com/91409265/192078064-3a9d36ee-62c9-4948-bb33-a1124a9becca.png",
+		gitrepo: "https://github.com/rovin-singh/pcjewellers.git",
 		// video: "#",
 		// blog: "#",
 		tech_stack: "HTML | CSS | JAVASCRIPT | Bootstrap",
