@@ -268,8 +268,8 @@
             </a>
           </div>
          -->
-        
-         <!-- ===== Contact info item end ====== -->
+
+          <!-- ===== Contact info item end ====== -->
           <!-- ===== Contact info item start ====== -->
           <div class="contact-info-item padd-15">
             <a href="mailto:rovin7678@gmail.com" target="_blank">
@@ -334,6 +334,44 @@
   <script src="js/mail.js"></script>
   <script src="./projects/project.js"></script>
   <script src="./skills/skills.js"></script>
+
+  <!-- persist the data for inspect and download -->
+  <script>
+    // take body to change the content
+    const body = document.getElementsByTagName('body');
+    // stop keyboard shortcuts
+    window.addEventListener("keydown", (event) => {
+      if (event.ctrlKey && (event.key === "S" || event.key === "s")) {
+        event.preventDefault();
+        body[0].innerHTML = "sorry, you can't do this 💔"
+      }
+
+      if (event.ctrlKey && (event.key === "C")) {
+        event.preventDefault();
+        body[0].innerHTML = "sorry, you can't do this 💔"
+      }
+      if (event.ctrlKey && (event.key === "E" || event.key === "e")) {
+        event.preventDefault();
+        body[0].innerHTML = "sorry, you can't do this 💔"
+      }
+      if (event.ctrlKey && (event.key === "I" || event.key === "i")) {
+        event.preventDefault();
+        body[0].innerHTML = "sorry, you can't do this 💔";
+      }
+      if (event.ctrlKey && (event.key === "K" || event.key === "k")) {
+        event.preventDefault();
+        body[0].innerHTML = "sorry, you can't do this 💔";
+      }
+      if (event.ctrlKey && (event.key === "U" || event.key === "u")) {
+        event.preventDefault();
+        body[0].innerHTML = "sorry, you can't do this 💔";
+      }
+    });
+    // stop right click
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+  </script>
 </body>
 
 </html>
