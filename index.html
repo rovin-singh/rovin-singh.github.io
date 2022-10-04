@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="css/style-switcher.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Github Link -->
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap"
     rel="stylesheet">
@@ -41,7 +43,7 @@
     <!-- ===== Aside Start ===== -->
     <div class="aside">
       <div class="logo">
-        <a href="#"><span>P</span>ortfolio</a>
+        <a href="#home"><span>R</span>ovin</a>
       </div>
       <div class="nav-toggler">
         <span></span>
@@ -51,6 +53,7 @@
         <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
         <li><a href="#services"><i class="fa fa-list"></i>Skills</a></li>
         <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a></li>
+        <li><a href="#github"><i class="fab fa-github"></i>Github</a></li>
         <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
       </ul>
     </div>
@@ -238,6 +241,36 @@
       </div>
     </section>
     <!-- ===== Portfolio Section End ===== -->
+
+    <!-- ===== Github Section Start ===== -->
+    <section class="github section" id="github">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>GitHub Showcase</h2>
+          </div>
+        </div>
+        <div>
+          <h2 style="text-align: center;">Github Calender</h2>
+          <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+          </div>
+          <div class="home__icon_cont">
+            <a href="https://github.com/rovin-singh/" target="_blank">
+              <div class="icon"><i class="fab fa-github"></i></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Github Section End ===== -->
+
+
+
+
+
+
     <!-- ===== Contact Section Start ===== -->
     <section class="contact section" id="contact">
       <div class="container">
@@ -334,6 +367,25 @@
   <script src="js/mail.js"></script>
   <script src="./projects/project.js"></script>
   <script src="./skills/skills.js"></script>
+
+  <!-- Github Scripts -->
+
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+  </script>
+  <script>
+    GitHubCalendar(".calendar", "rovin-singh");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "rovin-singh", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "rovin-singh", {
+      proxy(username) {
+        return fetch(`https://your-proxy.com/github?user=${username}`)
+      }
+    }).then(r => r.text())
+  </script>
+
 </body>
 
 </html>
