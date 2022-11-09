@@ -127,8 +127,8 @@
                           target="_blank">rovin7678@gmail.com</a></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p><i class="fas fa-mobile-alt"></i> <a href="https://wa.me/7678946057"
-                          target="_blank">7678946057</a></p>
+                      <p><i class="fas fa-mobile-alt"></i> <a href="https://wa.me/76xxxxxx57"
+                          target="_blank">76xxxxxx57</a></p>
                     </div>
                     <div class="info-item padd-15">
                       <p><span><i class="fas fa-map-marker-alt"></i> Ambedkarnagar, UttarPradesh - 224143</span></p>
@@ -322,21 +322,21 @@
             </a>
           </div>
           <!-- ===== Contact info item end ====== -->
-                    <!-- ===== Contact info item start ====== -->
-                    <div class="contact-info-item padd-15">
-                      <a href="https://www.facebook.com/rovin7678" target="_blank">
-                        <div class="icon"><i class="fab fa-facebook"></i></div>
-                        <h4>facebook</h4>
-                        <p>rovin7678</p>
-                      </a>
-                    </div>
-                    <!-- ===== Contact info item end ====== -->
           <!-- ===== Contact info item start ====== -->
           <div class="contact-info-item padd-15">
-            <a href="https://wa.me/7678946057" target="_blank">
+            <a href="https://www.facebook.com/rovin7678" target="_blank">
+              <div class="icon"><i class="fab fa-facebook"></i></div>
+              <h4>facebook</h4>
+              <p>rovin7678</p>
+            </a>
+          </div>
+          <!-- ===== Contact info item end ====== -->
+          <!-- ===== Contact info item start ====== -->
+          <div class="contact-info-item padd-15">
+            <a href="https://wa.me/76xxxxxx57" target="_blank">
               <div class="icon"><i class="fas fa-mobile-alt"></i></div>
               <h4>Mobile</h4>
-              <p>+91-7678946057</p>
+              <p>+91-76xxxxxx57</p>
             </a>
           </div>
           <!-- ===== Contact info item end ====== -->
@@ -396,7 +396,32 @@
       }
     }).then(r => r.text())
   </script>
+  <script>
+    document.addEventListener('keydown', function () {
+      if (event.keyCode == 123) {
+        alert("You Can not Do This!");
+        return false;
+      } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+        alert("You Can not Do This!");
+        return false;
+      } else if (event.ctrlKey && event.keyCode == 85) {
+        alert("You Can not Do This!");
+        return false;
+      }
+    }, false);
 
+    if (document.addEventListener) {
+      document.addEventListener('contextmenu', function (e) {
+        alert("You Can not Do This!");
+        e.preventDefault();
+      }, false);
+    } else {
+      document.attachEvent('oncontextmenu', function () {
+        alert("You Can not Do This!");
+        window.event.returnValue = false;
+      });
+    }
+  </script>
 </body>
 
 </html>
